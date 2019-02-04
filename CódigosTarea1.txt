@@ -1,0 +1,52 @@
+-CÓDIGO PRÁCTICA 1 [LÍNEAS]
+
+function setup()
+ {
+    createCanvas(400, 400);
+ }
+
+function draw()
+ {
+    background(0);
+	  stroke(255);
+	  line(0,400,200,200);
+    stroke(255);
+	  line(200,0,200,200);
+	  stroke(255);
+	  line(400,400,200,200);
+ }
+ 
+ 
+ -CÓDIGO PRÁCTICA 2 [BANDERAS]
+ 
+ function setup() 
+ {
+    createCanvas(400, 400);
+ }
+
+ function draw() 
+ {
+    background(0);
+	  fill(133,0,0);
+	  rect(0,0,133,400);
+    fill(0,133,0);
+	  rect(134,0,266,400);
+	  fill(0,0,133);
+	  rect(267,0,400,400);
+	}
+  
+  -CÓDIGO PRÁCTICA 3 [SEÑAL DE PROHIBICIÓN]
+  
+  function setup() 
+  {
+    createCanvas(400, 400);
+  }
+
+  function draw() 
+  {
+    background(255);
+	  stroke(133,0,0);
+	  strokeWeight(20);
+	  ellipse(200,200,350,350);
+	  line(80,80,320,320);
+  }
